@@ -1,0 +1,103 @@
+html{
+	background: transparent !important;
+}
+
+h1 a { 
+    background-image: url('../images/logo.jpg') !important;
+	padding: 0;
+	width: 100% !important;
+	display: block;
+	background-size: 100%;
+	min-height: 200px;
+	background-size: cover !important;
+}
+
+body.login{
+	background: #59524c !important;
+}
+
+#loginform{
+	background: #59524c; 
+	box-shadow: none;
+}
+
+#wp-submit{			
+	
+    display: none;
+    white-space: nowrap;
+    background-color: #ccc;
+    background-image: linear-gradient(top, #eee, #ccc);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+    border: 1px solid #777;
+    padding: 0 1.5em;
+    margin: 0.5em;
+    font: bold 1em/2em Arial, Helvetica;
+    text-decoration: none;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    border-radius: .2em;
+    box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);		
+    -webkit-transition: border-color 0.5s, background-color 0.5s, box-shadow 0.5s; /* Safari */
+    transition: border-color 0.5s, background-color 0.5s, box-shadow 0.5s;				
+	
+}
+				
+#wp-submit:hover{
+    box-shadow: 0 0 1px 1px #c7a589 inset, 0 1px 0 #c7a589;						
+    background-color: #c7a589;        
+    border-color: #c7a589;        
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd');   
+}	
+
+.login form .input{
+	background: #6A6A6A;
+	border: none;
+}
+
+.login .message{
+	background-color: #6A6A6A;
+	color: #DDD;
+}
+
+.login label{
+	color: #DDD;
+}
+
+.login #backtoblog a:hover, 
+.login #nav a:hover, 
+.login h1 a:hover{
+	color: #c7a589;
+}
+
+input[type=checkbox]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+input[type=password]:focus, 
+input[type=radio]:focus, 
+input[type=search]:focus, 
+input[type=tel]:focus, 
+input[type=text]:focus, 
+input[type=url]:focus, 
+select:focus, textarea:focus{
+	border-color: #c7a589;
+	-webkit-box-shadow: 0 0 2px #c7a589;
+	box-shadow: 0 0 2px #c7a589;
+}
+
+#backtoblog,
+#nav{
+	width: 48%;
+	float: left;
+	margin: 0 !important;
+	padding: 0 !important;
+	display: block;	
+}
+
+.login #backtoblog a,
+.login #nav a{
+	color: #ccc !important
+}
+
+body.login .QapTcha .dropError{
+	color: #bb6e2f;
+}
