@@ -24,7 +24,9 @@
 			}
 		
 			public function EndSession() {
-			    session_destroy ();
+				if(session_id()) {
+			    	session_destroy ();
+				}
 			}	
 			
 			public function front_scripts(){
