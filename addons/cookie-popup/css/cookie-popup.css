@@ -43,3 +43,15 @@
 	text-decoration: none;
 	
 }
+
+@media all and (max-width: 767px) {
+  .cookie-popup {
+	  font-size: 12px;
+	  padding: 5px;
+	  box-sizing: border-box;
+  }
+  
+  #accept-cookies{
+	  clear: both;
+  }
+}
