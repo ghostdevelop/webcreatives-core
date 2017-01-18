@@ -11,12 +11,6 @@ License: GPL2
 /*
 Copyright 2015
 */
-	require 'plugin-updates/plugin-update-checker.php';
-	$ExampleUpdateChecker = PucFactory::buildUpdateChecker(
-		'http://webcreatives.hu/plugins/webcreatives-core/webcreatives-core.json',
-		__FILE__
-	);
-		
 	if(!class_exists('wCore')) {
 	
 	class wCore{
