@@ -71,10 +71,10 @@ jQuery.QapTcha = {
 								inputQapTcha.val('');
 								TxtStatus.text(opts.txtUnlock).addClass('dropSuccess').removeClass('dropError');
 								form.find('input[type=\'submit\']').show();
-								form.find('input[type=\'submit\']').val("Újrapróbálkozás");
+								form.find('input[type=\'submit\']').val(ajax_urls.resubmit);
 								form.find('input[type=\'submit\']').removeAttr('disabled');
 								form.find('input[type=\'button\']').show();
-								form.find('input[type=\'button\']').val("Újrapróbálkozás");
+								form.find('input[type=\'button\']').val(ajax_urls.resubmit);
 								form.find('input[type=\'button\']').removeAttr('disabled');
 								if(opts.autoSubmit) form.find('input[type=\'submit\']').trigger('click');
 							}
