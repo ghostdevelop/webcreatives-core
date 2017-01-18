@@ -31,7 +31,6 @@ class Simple_Page_Ordering {
 	public static function _add_actions() {
 		add_action( 'load-edit.php', array( __CLASS__, 'load_edit_screen' ) );
 		add_action( 'wp_ajax_simple_page_ordering', array( __CLASS__, 'ajax_simple_page_ordering' ) );
-		add_action( 'plugins_loaded', array( __CLASS__, 'load_textdomain' ) );
 	}
 
 	/**
