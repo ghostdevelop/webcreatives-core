@@ -34,7 +34,7 @@
 				wp_enqueue_script( 'jquery-ui-draggable');
 				wp_enqueue_script( 'jquery-ui-touch', plugins_url( 'js/jquery.ui.touch.js', __FILE__ ),  array('jquery'));
 				wp_enqueue_script( 'QapTcha.jquery-jquery', plugins_url( 'js/QapTcha.jquery.js', __FILE__ ),  array('jquery'), '1.0', true);
-				wp_localize_script( 'QapTcha.jquery-jquery', 'ajax_urls',	array( 'admin_url' => plugins_url( '', __FILE__ ) ) );			
+				wp_localize_script( 'QapTcha.jquery-jquery', 'ajax_urls',	array( 'admin_url' => plugins_url( '', __FILE__ ), 'resubmit' => __('Újrapróbálkozás', 'webcreatives-core') ) );			
 				
 				wp_enqueue_style( 'quaptcha', plugins_url( 'css/QapTcha.jquery.css', __FILE__ ));					
 			}	

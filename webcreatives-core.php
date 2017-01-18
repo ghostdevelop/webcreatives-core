@@ -38,7 +38,7 @@ Copyright 2015
 		
 		public function setup_languages(){
 
-			load_plugin_textdomain( 'webcreatives-core', false, wCorePath.'languages' );
+			load_plugin_textdomain( 'webcreatives-core', false, wCorePath.'/languages/' );
 		}
 		
 		function generate_constans(){
