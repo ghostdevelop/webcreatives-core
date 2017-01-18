@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Webcreatives Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-18 22:29+0000\n"
+"PO-Revision-Date: 2017-01-18 22:32+0000\n"
+"Last-Translator: Petya <petyaxd@gmail.com>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: admin-templates/theme-options.php:9
+msgid "Webcreatives beállítások"
+msgstr ""
+
+#: class/class-breadcrumb.php:226 class/class-breadcrumb.php:226
+msgid "Search results for:"
+msgstr ""
+
+#: class/class-admin-styles.php:85
+msgid "Hír"
+msgstr ""
+
+#: addons/cookie-popup/cookie-popup.php:29
+msgid ""
+"Ez a weboldal a legjobb felhasználói élmény elérése érdekében sütiket "
+"(cookie) használ. Weboldalunk használatával jóváhagyja a sütik használatát."
+msgstr ""
+
+#: addons/cookie-popup/cookie-popup.php:30
+msgid "Elfogadom"
+msgstr ""
+
+#: addons/cookie-popup/cookie-popup.php:32
+msgid "További információk..."
+msgstr ""
+
+#: addons/qaptcha/qaptcha.php:37
+msgid "Újrapróbálkozás"
+msgstr ""
+
+#: addons/qaptcha/qaptcha.php:125 addons/qaptcha/qaptcha.php:129
+msgid "CAPTCHA response was incorrect"
+msgstr ""
+
+#. Name of the plugin
+msgid "Webcreatives Core"
+msgstr ""
+
+#. Description of the plugin
+msgid "webcreatives core plugin, to easily build high quality website"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://webcreatives.hu"
+msgstr ""
+
+#. Author of the plugin
+msgid "Peter Bartfai"
+msgstr ""
