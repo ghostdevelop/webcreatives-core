@@ -35,13 +35,6 @@ class Simple_Page_Ordering {
 	}
 
 	/**
-	 * Loads the plugin textdomain
-	 */
-	public static function load_textdomain() {
-		load_plugin_textdomain( 'simple-page-ordering', false, dirname( plugin_basename( __FILE__ ) ) . '/localization/' ); 
-	}
-
-	/**
 	 * Load up page ordering scripts for the edit screen
 	 */
 	public static function load_edit_screen() {

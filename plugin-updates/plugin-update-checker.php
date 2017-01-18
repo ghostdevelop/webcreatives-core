@@ -126,8 +126,6 @@ class PluginUpdateChecker_3_1 {
 		//Rename the update directory to be the same as the existing directory.
 		add_filter('upgrader_source_selection', array($this, 'fixDirectoryName'), 10, 3);
 
-		//Enable language support (i18n).
-		load_plugin_textdomain('plugin-update-checker', false, plugin_basename(dirname(__FILE__)) . '/languages');
 
 		//Allow HTTP requests to the metadata URL even if it's on a local host.
 		$this->metadataHost = @parse_url($this->metadataUrl, PHP_URL_HOST);
