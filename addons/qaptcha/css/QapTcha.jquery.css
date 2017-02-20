@@ -124,6 +124,7 @@ input[disabled], select[disabled], textarea[disabled], input[readonly], select[r
 	cursor: not-allowed !important;
 }
 
+.QapTcha input.button,
 form.sent input[type="submit"].wpcf7-form-control.wpcf7-submit,
 form.sent input[type="submit"],
 form.sent button{
