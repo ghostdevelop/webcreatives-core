@@ -129,8 +129,3 @@ form.sent input[type="submit"],
 form.sent button{
 	display: none !important;
 }
-
-form.invalid input[type="submit"],
-form.invalid button{
-	display: block;
-}
